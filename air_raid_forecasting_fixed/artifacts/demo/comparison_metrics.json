@@ -1,0 +1,47 @@
+{
+  "evaluation": {
+    "test_start": "2025-01-19T17:00:00+00:00",
+    "test_end": "2025-01-22T15:00:00+00:00",
+    "train_end": "2025-01-19T16:00:00+00:00",
+    "n_train_rows": 562,
+    "n_test_rows": 142,
+    "n_text_features": 46,
+    "cv_strategy": "expanding window over unique timestamps",
+    "test_used_for_tuning": false
+  },
+  "time_series_only": {
+    "alert_occurrence": {
+      "roc_auc": 0.9947390572390573,
+      "precision_at_0_5": 0.9629629629629629,
+      "recall_at_0_5": 0.9629629629629629,
+      "threshold": 0.5
+    },
+    "alert_minutes": {
+      "mae_minutes": 7.278657772622681,
+      "rmse_minutes": 10.620663248987483
+    }
+  },
+  "time_series_plus_text": {
+    "alert_occurrence": {
+      "roc_auc": 0.98989898989899,
+      "precision_at_0_5": 0.9642857142857143,
+      "recall_at_0_5": 1.0,
+      "threshold": 0.5
+    },
+    "alert_minutes": {
+      "mae_minutes": 7.1538731711773575,
+      "rmse_minutes": 10.396371296869448
+    }
+  },
+  "text_minus_baseline_delta": {
+    "alert_occurrence": {
+      "roc_auc": -0.004840067340067367,
+      "precision_at_0_5": 0.001322751322751392,
+      "recall_at_0_5": 0.03703703703703709
+    },
+    "alert_minutes": {
+      "mae_minutes": -0.12478460144532377,
+      "rmse_minutes": -0.2242919521180351
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "input_alerts": "C:\\Users\\Влад\\OneDrive\\Документи\\air_raid_forecasting_fixed\\data\\demo\\alerts.csv",
+  "input_text_events": "C:\\Users\\Влад\\OneDrive\\Документи\\air_raid_forecasting_fixed\\data\\demo\\text_events.csv",
+  "coverage_start": "2025-01-01T00:00:00Z",
+  "coverage_end": "2025-01-22T15:00:00Z",
+  "regions": [
+    "Demo North",
+    "Demo South"
+  ],
+  "test_fraction": 0.2,
+  "split_time": null,
+  "n_splits": 2,
+  "random_state": 42,
+  "neighbor_features_disabled": false,
+  "neighbors_json": "C:\\Users\\Влад\\OneDrive\\Документи\\air_raid_forecasting_fixed\\data\\demo\\neighbors.json",
+  "text_source_coverage_start": "2025-01-01T00:00:00Z"
+}
